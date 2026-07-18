@@ -1,0 +1,61 @@
+/* Reset */
+:root{
+    --primary:#00b7ff;
+    --primary-light:#6dd7ff;
+    --primary-transparent:rgba(0,183,255,.5);
+    --primary-soft:rgba(0,183,255,.25);
+    --primary-background:rgba(0,183,255,.07);
+
+    --background:#010508;
+    --background-secondary:#02090d;
+    --card-background:#071016;
+
+    --text:#fff;
+    --text-light:rgba(255,255,255,.65);
+    --border:rgba(255,255,255,.12);
+
+    --white:#fff;
+    --success:#008000;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+    scroll-padding-top:100px;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#050505;
+    color:#FFF;
+    overflow-x:hidden;
+}
+
+body.menu-open{
+    overflow:hidden;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+a{
+    color:inherit;
+}
+
+.container{
+    width:min(1180px,90%);
+    margin:auto;
+}
+
+@media (max-width:520px){
+    .container{
+        width:92%;
+    }
+}
