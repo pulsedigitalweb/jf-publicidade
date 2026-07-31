@@ -13,11 +13,12 @@ function openWhatsapp(event){
 
 /* Botões de orçamento */
 const whatsappButtons = document.querySelectorAll(
-    ".btn-primary, .profile-social-card, .service-link, #btn-footer-wpp, #btn-footer"
+    ".btn-primary, #btn-profile, .service-link, #btn-footer-wpp, #btn-footer, .btn-nav"
 );
 
 whatsappButtons.forEach(button => {
     button.addEventListener("click", openWhatsapp);
+    console.log("passou");
 });
 
 /* Formulário de contato */
