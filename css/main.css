@@ -1,4 +1,4 @@
-/* style.css */
+/* Base */
 :root{
     --primary:#0077b6;
     --primary-light:#6dd7ff;
@@ -60,7 +60,7 @@ a{
     }
 }
 
-/* header.css */
+/* Cabeçalho e navegação */
 header{
     position:fixed;
     width:100%;
@@ -541,7 +541,7 @@ nav{
     }
 }
 
-/* About - Sobre*/
+/* Sobre */
 .about{
     padding:100px 0;
     background:var(--background);
@@ -624,7 +624,7 @@ nav{
 
 }
 
-/* Services */
+/* Serviços */
 .services{
     padding:100px 0;
     background:#02090d;
@@ -745,7 +745,7 @@ nav{
     transform:translateX(5px);
 }
 
-/* Services Highlight */
+/* Destaques dos serviços */
 
 .services-highlight{
     display:grid;
@@ -923,7 +923,7 @@ nav{
 
 }
 
-/* Location */
+/* Localização */
 .location{
     padding:100px 0;
     background:#010508;
@@ -1047,7 +1047,7 @@ nav{
 
 }
 
-/* Reviews */
+/* Avaliações */
 .reviews{
     padding:100px 0;
     background:#02090d;
@@ -1215,6 +1215,23 @@ nav{
     line-height:1.8;
 }
 
+.btn-primary-avaliar{
+    background:#00b7ff;
+    color:#fff;
+    padding:18px 30px;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-primary-avaliar i:hover{
+    transform:translateY(-4px);
+    box-shadow:0 0 35px #00b7ff;
+    background-color: var(--success);
+}
+
 .btn-secondary{
     display:inline-flex;
     align-items:center;
@@ -1271,7 +1288,7 @@ nav{
 
 }
 
-/* Contact */
+/* Contato */
 .contact{
     padding:100px 0;
     background:#010508;
@@ -1411,7 +1428,7 @@ nav{
     font-size:1.2rem;
 }
 
-/* Profile Card */
+/* Card de perfil */
 
 .contact-profile-wrapper{
     display:flex;
@@ -1606,7 +1623,7 @@ nav{
 
 }
 
-/* Footer */
+/* Rodapé */
 .footer{
     padding:80px 0 0;
     background:#02090d;
@@ -1788,7 +1805,7 @@ nav{
     color:var(--white);
 }
 
-/* SEO Modal */
+/* Modal SEO */
 
 .seo-modal{
     position:fixed;
